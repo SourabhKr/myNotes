@@ -7,8 +7,6 @@
             - Folder / Subfolder
                 - Project
 
-    Organization being the root node, contains all the resources for a company. An organization can have none or multiple folders. Each folder then contain a project. Project is basically the most important node in the hierarchy, the actual billing is done at this level. 
+    Organization being the root node, contains all the resources for a company. An organization can have none or multiple folders. Each folder then contain a project. Project is basically the most important node in the hierarchy, the actual billing is done at this level. All the resources and services are connected to a Project.
     Important points:
      The IAM roles can be assigned at different levels, i.e. the access can be controlled at any level mentioned above.
-
-### What 
