@@ -4,6 +4,11 @@ Every cloud provider has a specific way of organizing the provided services/reso
     2. Provide access points for access control.
 
 ### What is the resource hierarchy in GCP?
+In GCP the resources are divided into two different groups:  
+1. account-level resources
+2. service-level resources  
+
+The account-level resources, maintain the hierarchy required to manage the company, examples are Organization, Folder and Project. Whereas the service-level resources are the actual services, like VM, DBs etc...   
 In GCP, the resource hierarchy looks like as below.     
 - Organization <br>
 &emsp;&emsp; - Folder / Subfolder <br>
@@ -25,7 +30,7 @@ The Organization is a mandatory resource, though it's not available in free tier
 The folder/subfolder is an optional resource and usually used to have better organizational control. Folders can be the individual department/domain/team of a company. Similar to Organizational resources, folder resources allow administrative access delegation, i.e. access provided at folder level delegated to each resource of the folder. At the same time access to resources can also be restricted to folder, restricting the access of an account to a particular folder. <br><br>
 
 ### Projects: 
-The project resource is the base level organizational resource. Organization and folder resources may contain multiple projects. A project resource is mandatory to use gcp resources. <br>
+The project resource is the base level organizational resource. Organization and folder resources may contain multiple projects. A project resource is mandatory to use gcp service-level resources. <br>
 All project resources consist of the following:
 
 > Two identifiers:
