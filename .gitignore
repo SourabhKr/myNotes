@@ -1,2 +1,5 @@
 # remove the default mac repo
 .DS_Store
+
+# remove vscode files
+\.vscode/
