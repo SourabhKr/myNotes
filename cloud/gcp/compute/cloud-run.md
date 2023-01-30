@@ -18,7 +18,7 @@ Pricing model:
 
 
 #### Services or jobs must be packaged in a container image
-A container image is a package with everything your service needs to run. That includes build artifacts, assets, system packages, and (optionally) a runtime. This makes a containerized application inherently portable – it runs anywhere a container can run. 
+A container image is a package with everything a service needs to run. That includes build artifacts, assets, system packages, and (optionally) a runtime. This makes a containerized application inherently portable – it runs anywhere a container can run. 
 ![container_overview](/images/gcp/container_overview.png)
 
 
