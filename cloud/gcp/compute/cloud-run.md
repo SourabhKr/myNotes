@@ -24,6 +24,7 @@ A container image is a package with everything a service needs to run. That incl
 
 
 
+
 ---
 Reference:
 1. https://cloud.google.com/run/docs/overview/what-is-cloud-run
