@@ -2,7 +2,7 @@
 
 The history of containers goes long back and the problem it solves are related to better resource utilization, better deployment, better fail over strategies, easy scalability, better practices of development. 
 
-Usually in the initial days, to run an application we had to buy servers (nothing but a bigger computer). This caused problems of under-utilizing the available resources, because of the very nature of humans, we buy more then what we need(buying bigger servers that's actually needed). 
+Usually in the initial days, to run an application we had to buy servers (nothing but a bigger computer). This caused problems of under-utilizing the available resources, because of the very nature of humans, we buy more then what we need(buying bigger servers that's actually needed). To overcome this, we started to run multiple applications on the same server. This does gave us a better resource utilization but came at a cost of highly unmanageable systems. Basically, different apps have very different dependencies and maintaining the dependency without really having an isolation was not pragmatic.
 
 To solve this problem, virtual machines evolved and governed the markets for long. Virtual machines in the core is a virtual computer running on the Hypervisor that's running on the Host OS .i.e, allowing multiple copies of OS to run on one single hardware.
 Benefits of VMs
