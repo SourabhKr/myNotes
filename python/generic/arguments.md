@@ -1,4 +1,4 @@
-Function Arguments: 
+# Function Arguments
 
 1. Pass by reference
 2. Pass by Value:
@@ -17,10 +17,11 @@ Python passes arguments by assignment. That is, when you call a Python function,
 ![Example](/images/python/arguments.jpg)
 
 Assignment in Python:
+
 * If the assignment target is an identifier, or variable name, then this name is bound to the object. For example, in x = 2, x is the name and 2 is the object.
 * If the name is already bound to a separate object, then it’s re-bound to the new object. For example, if x is already 2 and you issue x = 3, then the variable name x is re-bound to 3.
 
-
+---
 Reference:
-1. RealPython 
-2. 
+
+1. RealPython
