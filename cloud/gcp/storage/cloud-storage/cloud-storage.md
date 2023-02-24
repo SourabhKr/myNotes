@@ -12,6 +12,13 @@ Security around cloud storage:
 * Bucket Lock: Retention period of objects in the bucket.
 * Object Versioning: Different versions can live simultaneously, allowing deleted files to be recovered.
 
+Object names must meet the following requirements:
+
+* Object names can contain any sequence of valid Unicode characters, of length 1-1024 bytes when UTF-8 encoded.
+* Object names cannot contain Carriage Return or Line Feed characters.
+* Object names cannot start with .well-known/acme-challenge/.
+* Objects cannot be named . or ...
+
 ## Cost classes around cloud storage
 
 1. Storage Costs
@@ -91,3 +98,4 @@ Reference:
 2. <https://cloud.google.com/storage/docs/storage-classes>
 3. <https://cloud.google.com/storage/pricing#europe>
 4. <https://cloud.google.com/storage/docs/resumable-uploads>
+5. <https://cloud.google.com/storage/docs/objects#naming>
