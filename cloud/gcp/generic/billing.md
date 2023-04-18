@@ -8,6 +8,7 @@ Note: Each project must be enabled in one of the Billing accounts of the organiz
 ![Billing Hierarchy](/images/gcp/billing-account.png)
 
 ---
+
 ## Links
 
 * <https://cloud.google.com/billing/docs/concepts>
