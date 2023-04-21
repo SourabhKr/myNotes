@@ -15,3 +15,4 @@ When a container is created a new writable layer on top of the underlying layers
 ![image_layer](/images/docker/image_layer.png)
 
 A storage driver handles the details about the ay these layers interact with each other. It also manages the contents of the storage layers including the thin writable layer. Each storage driver handles the implementation differently but all drivers use stackable image layer and the copy on write (CoW) strategy.
+Copy on write is copying the files before making any changes. i.e. when a file needs to modified by a dockerfile command or in the writable layer, the file needs to be modified is first copied to the current layer and the modifications are done to that file. Making it more performant for read but at the same time degrading write performance for data intensive services like database.
