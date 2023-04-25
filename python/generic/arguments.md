@@ -14,7 +14,7 @@ Python passes arguments by assignment. That is, when you call a Python function,
 1. Function arguments initially refer to the same address as their original variables.
 2. Reassigning the argument within the function gives it a new address while the original variable remains unmodified.
 
-![Example](/images/python/arguments.jpg)
+![Example](/asset/images/python/arguments.jpg)
 
 Assignment in Python:
 

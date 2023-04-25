@@ -19,7 +19,7 @@ def fn():
   return y + 1
 ```
 
-![Memory Allocation](/images/python/PythonVariable.jpg)
+![Memory Allocation](/asset/images/python/PythonVariable.jpg)
 
  In python everything is an object and this is true in a sense as even primitive data types are also objects.
 

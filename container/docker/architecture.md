@@ -2,7 +2,7 @@
 
 Docker follows a client-server architecture, where all the docker clients talk to docker daemon, which does all the heavy lifting of building running and distributing docker containers. The Docker client and daemon can run on the same system, or can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, that works with applications consisting of a set of containers.
 
-![Docker Architecture](/images/docker/docker_architecture.png)
+![Docker Architecture](/asset/images/docker/docker_architecture.png)
 
 Docker daemon runs as a process in the host OS, and uses the host OS hence making the clients running very light weight.
 

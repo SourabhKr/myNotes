@@ -34,7 +34,7 @@ There are basically 3 different ranges in a private IP address pool.
 
 Class A, B C as shown in the image below. 
 
-![Private IP Ranges](/images/networking/private_ip_ranges.png)
+![Private IP Ranges](/asset/images/networking/private_ip_ranges.png)
 
 ---
 

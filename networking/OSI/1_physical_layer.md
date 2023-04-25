@@ -15,7 +15,7 @@ The devices that comes under Physical layer are:
 2. Hubs
 
 An image explaining the same:
-![Physical-Layer](/images/networking/physical_layer.png)
+![Physical-Layer](/asset/images/networking/physical_layer.png)
 
 ----
 Reference:

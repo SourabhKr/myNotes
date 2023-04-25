@@ -5,7 +5,7 @@ The billing in GCP is handled on the Organizational level by a separate Cloud Bi
 
 Note: Each project must be enabled in one of the Billing accounts of the organization in order to create/use any of the GCP service-level resources in that project.
 
-![Billing Hierarchy](/images/gcp/billing-account.png)
+![Billing Hierarchy](/asset/images/gcp/billing-account.png)
 
 ---
 

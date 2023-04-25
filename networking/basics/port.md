@@ -22,7 +22,7 @@ Out of the above mentioned: 1 and 2 are basically used by servers and 3 is used 
 
 Note: Servers don't always mean a physically distant system, the local system can also act as a server for other services in the same system or for an external device in a network. So the ports mentioned in category 1, can still be used by the local system.
 
-![Port Mapping Example](/images/networking/port_mapping_example.png)
+![Port Mapping Example](/asset/images/networking/port_mapping_example.png)
 
 In the above example the dynamic ports are assigned by the local computer seen as Local address which is used to map, which request should be processed by which service in the local computer.
 
