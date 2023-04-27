@@ -3,4 +3,6 @@
 images/\.DS_Store
 
 # remove vscode files
-\.vscode/
+.vscode/*
+.history/
+*.vsix
