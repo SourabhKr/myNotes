@@ -4,6 +4,13 @@
         "cloudbuild",
         "Coldline",
         "Nearline",
-        "Pydantic"
+        "OLAP",
+        "PARTITIONDATE",
+        "Pydantic",
+        "pyenv",
+        "UNNEST",
+        "UNPARTITIONED",
+        "Upserts",
+        "virtualenv"
     ]
 }
