@@ -2,9 +2,17 @@
 
 BigQuery is a managed petabyte scale OLAP(Online Analytical Processing) database provided by GCP.
 
+BigQuery comes with multiple flavours/editions, with different pricing for different kinds of workloads, they also have different features. The available editions are:
+
+* Standard
+* Enterprise
+* Enterprise Plus
+
+More details in the link at the end.
+
 ## Caching
 
-By default all queries fired on BigQuery are stored in temp tables for subsequent use, the temporary storage is called caching.
+By default all queries fired on BigQuery are stored in temp tables for subsequent use, the temporary storage is called caching. Cashing is free and not charged for storage.
 
 Points to Note:
 
@@ -51,3 +59,8 @@ This overhead is solved by BigQuery, by using the STRUCT and RECORDS type dataty
 
     Columns of type RECORD can contain nested RECORD types, also called child records. The maximum nested depth limit is 15 levels. This limit is independent of whether the RECORDs are scalar or array-based (repeated).
 
+---
+Links
+
+* <https://cloud.google.com/bigquery/docs/editions-intro>
+* <https://cloud.google.com/bigquery/docs/cached-results>
