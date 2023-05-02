@@ -12,6 +12,32 @@ Key characteristics of MV:
 
 * Smart Tunning: For incremental MV, BQ automatically tries to read the data from MV whenever possible, even if the query did not directly queried the MV.
 
+### MV Usage
+
+Querying a MV is exactly similar to querying regular table or standard view. Queries against materialized views are always consistent with queries against the view's base tables, even if those tables have changed since the last time the materialized view was refreshed. Querying does not automatically trigger a materialized refresh.
+
+* Incremental updates
+
+  * BigQuery combines the cached view data with new data to provide consistent query results while still using the materialized view. For single-table materialized views, this is possible when the base table has not changed since the last refresh, or only new data has been added. For multi-table views, no more than one table may have appends. All others cannot have changes.
+
+  * If there were any updates or deletes in the base tables since the last refresh, or if more than one of a multi-table materialized view's base tables have changed, BigQuery automatically reverts to the original query.
+
+* Partition alignment
+
+    If a materialized view is partitioned, BigQuery ensures that its partitions are aligned with the partitions of the base table's partitioning column.
+
+    Materialized views with inner joins can only be aligned with one of their base tables. If one of the non-aligned base tables changes, it affects the entire view.
+
+* Smart tuning
+
+    BigQuery automatically rewrites queries to use materialized views whenever possible. Automatic rewriting improves query performance and cost, and does not change query results.
+
+    For a query to be rewritten, the materialized view must meet the following conditions:
+  * Belong to the same dataset as one of its base tables.
+  * Use the same set of base tables as the query.
+  * Include all columns being read.
+  * Include all rows being read.
+
 A broader functionalities can be see in the below image.
 
 ![MaterializedView](/asset/images/gcp/MaterialzedViewComparision.png)
@@ -78,3 +104,9 @@ Allows most of the SQL operations, including all kind of joins, windows and anal
 
 * Smart-tunning is not applied.
 * Can configured to automatically/manually full refresh the MV by using allow_non_incremental_definition option.
+
+---
+
+Links
+
+* <https://cloud.google.com/bigquery/docs/materialized-views-intro>
