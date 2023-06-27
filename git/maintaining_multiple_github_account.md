@@ -1,6 +1,6 @@
 # GitHub Multiple account
 
-### Why do we need multiple account?
+## Why do we need multiple account?
 
 Usually every developer will have their own GitHub account used for own development purposes, and an additional account for office use, this can be in GitHub or BitBucket or anything similar.
 
