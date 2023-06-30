@@ -1,6 +1,6 @@
 # What is an IP Address?
 
-An IP address is a numeric address. It's an identifier for a computer or a device on a network. Every device has to have an IP address for communication purposes.
+An IP address is a Network layer numeric address. It's an identifier for a computer or a device on a network. Every device has to have an IP address for communication purposes. It's also a logical address, it can change for a device, i.e. the IP address can change and it's not assigned uniquely like MAC address on a device level that can not be changed. Used for WAN communication.
 
 It basically consists of two parts:
 
