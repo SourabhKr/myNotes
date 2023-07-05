@@ -27,6 +27,9 @@ Autofailover is a mechanism that automatically triggers failover when a Cloud SQ
 
 The Cloud SQL Auth proxy client is open source software maintained by Cloud SQL. It connects to a companion process, the Cloud SQL Auth proxy server, running on your Cloud SQL instance. You run the Cloud SQL Auth proxy client on your own servers. The Cloud SQL Auth proxy client can be used to establish a secure SSL/TLS connection to the database instance, and/or to avoid having to open the firewall. Authentication is done through Identity and Access Management (IAM).
 
+## Maintenance Window
+A maintenance window must be predefined, for google to do the maintenance. Though the maintenance typically only takes place once every few months, the system need to be restarted after this, making it unavailable for the maintenance window.
+
 ---
 Links
 
