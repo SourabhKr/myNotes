@@ -39,7 +39,7 @@ Here’s a high-level comparison of Datastore and relational database concepts:
 
 ![FilestoreRDBMSComparision](/asset/images/gcp/firestore_rdbms_comparision.png)
 
-### Eventual Consistency
+## Eventual Consistency
 
 Eventual consistency is a theoretical guarantee that, provided no new updates to an entity are made, all reads of the entity will eventually return the last updated value. The Internet Domain Name System (DNS) is a well-known example of a system with an eventual consistency model. DNS servers do not necessarily reflect the latest values but, rather, the values are cached and replicated across many directories over the Internet. It takes a certain amount of time to replicate modified values to all DNS clients and servers
 
