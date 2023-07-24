@@ -37,7 +37,7 @@ Datastore mode disables Firestore features that are not compatible with Datastor
 
 Here’s a high-level comparison of Datastore and relational database concepts:
 
-![FilestoreRDBMSComparision](/asset/images/gcp/firestore_rdbms_comparision.png)
+![Filestore_RDBMS_Comparison](/asset/images/gcp/firestore_rdbms_comparision.png)
 
 ## Eventual Consistency
 
