@@ -4,9 +4,9 @@ Dataform is a service for data analysts to develop, test, version control, and s
 
 Once the data is loaded from the source systems to the BigQuery, Dataform can be used to further transform,using SQL.
 
-**NOTE** Dataform does not support customer-managed encryption keys (CMEK) and VPC Service Controls at this time.
+**NOTE:** Dataform does not support customer-managed encryption keys (CMEK) and VPC Service Controls at this time.
 
-## Important points
+## Important concepts
 
 ### Repositories
 
@@ -65,11 +65,9 @@ You can override compilation settings to customize how Dataform compiles your SQ
 1. With workspace compilation overrides, we can configure compilation overrides for all workspaces in a repository.The dynamic workspace overrides can be used to create compilation results custom for each workspace, turning workspaces into isolated development environments
 2. With release configurations, we can configure templates of compilation settings for creating compilation results of a Dataform repository.
 
-
 ### Workflow execution
 
 During workflow execution, Dataform executes compilation results of SQL workflows to create or update assets in BigQuery.
-
 
 ---
 Reference
