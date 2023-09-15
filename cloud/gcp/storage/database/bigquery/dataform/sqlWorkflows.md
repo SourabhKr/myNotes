@@ -23,5 +23,3 @@ Release configuration: Release configuration can be used to configure compilatio
 ## Declare a Data source
 
 Any BigQuery Table types (Standard BigQuery table, External Tables, Views) can be declared as a data source in Dataform.  Declaring BigQuery data sources that are external to Dataform allows data sources to be treated as first-class Dataform objects. Once declared as a data source, the same can be referenced or resolved in the same way as any other table in Dataform.
-
-
