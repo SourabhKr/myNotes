@@ -121,7 +121,7 @@ module.exports = {
 
 The following code sample shows the user_id and age constants, defined in includes/docs.js, used in the definitions/my_table.sqlx SQLX table definition file to generate documentation for selected columns in the table:
 
-```json 
+```json
 config {
   type: "table",
   description: "Table description.",
@@ -142,12 +142,13 @@ With Dataform core,  pre_operations and post_operations can be defined to execut
 
 1. Override table settings
    By default, a table follows the schema and database configuration set in dataform.json. The name of a table is the same as the name of the table definition SQLX file. To override the defaults add the below configuration in the config block of each sqlx file:
-    ```json 
+
+    ```json
      {
-        schema: "OVERRIDDEN_SCHEMA",
-        database: "OVERRIDDEN_DATABASE",
-        name: "OVERRIDDEN_NAME"
-        }
+    schema: "OVERRIDDEN_SCHEMA",
+    database: "OVERRIDDEN_DATABASE",
+    name: "OVERRIDDEN_NAME"
+    }
     ```
 
 
