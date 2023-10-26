@@ -6,3 +6,7 @@ images/\.DS_Store
 \.vscode/*
 .history/
 *.vsix
+
+# remove pycharm init files
+\.init/*
+\.idea/*

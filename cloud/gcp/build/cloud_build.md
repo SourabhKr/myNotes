@@ -25,9 +25,9 @@ The following steps describe, in general, the lifecycle of a Cloud Build build:
 
 ## Default pools and private pools
 
-By default the cloud build runs the build in a secure, hosted environment with access to public internet. Each build runs on its own worker and is isolated from other workloads. This can be customized, even changing the default machine configuration, i.e. increasing the cpu, memory. Though the default pool has a limitation on the customization, particularly around the private network access.
+By default, the cloud build runs the build in a secure, hosted environment with access to public internet. Each build runs on its own worker and is isolated from other workloads. This can be customized, even changing the default machine configuration, i.e. increasing the cpu, memory. Though the default pool has a limitation on the customization, particularly around the private network access.
 
-**Private Pools** Private pools are private, dedicated pools of workers that offer greater customization over the build environment, including the ability to access resources in a private network
+**Private Pools** are private, dedicated pools of workers that offer greater customization over the build environment, including the ability to access resources in a private network
 
 ## Automate builds by using Cloud Build
 
