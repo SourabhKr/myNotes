@@ -18,7 +18,7 @@ Port number are divided into three main categories:
 2. 1024 - 4915: User/Registered ports(can be registered by a user or a company for a particular service.) Ex: 1102: Adobe Server, 1433: MicroSoft SQL Server.
 3. 49152 - 65535 : Dynamic/Private ports (Client side ports used by different services/programmes running locally during a session to operate properly)
 
-Out of the above mentioned: 1 and 2 are basically used by servers and 3 is used the local computer.
+Out of the above-mentioned: 1 and 2 are basically used by servers and 3 is used the local computer.
 
 Note: Servers don't always mean a physically distant system, the local system can also act as a server for other services in the same system or for an external device in a network. So the ports mentioned in category 1, can still be used by the local system.
 
