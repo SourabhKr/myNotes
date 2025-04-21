@@ -48,3 +48,5 @@ Reference
 
 * https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
 * https://packaging.python.org/en/latest/glossary/#term-Build-Backend
+* https://peps.python.org/pep-0582/#example
+* https://peps.python.org/pep-0518/
